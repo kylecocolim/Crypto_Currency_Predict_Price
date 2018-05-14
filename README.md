@@ -5,8 +5,8 @@ Predict Crypto Currency Price Predict using Korea UPbit unoffical realtime data<
 
 [UPBit Data Crawler]
 업비트에서 제공하는 비공식 API로써 사이트에 Ajax형태인 JSON으로 반환 할때 이용되는 URL을 통해 데이터를 수집합니다.<br>
-
-https://crix-api-endpoint.upbit.com/v1/crix/candles/minutes/{minutes}?code=CRIX.UPBIT.KRW-{coinName}&count={count}&to={timeseries}.000Z
+[URL]
+https://crix-api-endpoint.upbit.com/v1/crix/candles/minutes/{minutes}?code=CRIX.UPBIT.KRW-{coinName}&count={count}&to={timeseries}.000Z<br>
 URL에서의 Parameter<br>
 minutes : 1,3,5,30,60,240 분으로 검색기간을 지정할 수 있습니다.<br>
 count : 검색기간을 두고 호출할 데이터의 갯수를 설정합니다 (count<=200)<br>
