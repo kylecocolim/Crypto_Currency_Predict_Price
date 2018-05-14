@@ -1,9 +1,14 @@
-# Crypto_Currency_Predict
+## Crypto Currency Price Predict
 Predict Crypto Currency Price Predict using Korea UPbit unoffical realtime data</br>
 
 대한민국에서 가장 많이 사용하는 UPBit의 비공식 데이터를 이용해서 LSTM을 이용하여 종가를 예측하는 프로그램입니다.</br>
 
 [UPBit Data Crawler]<br>
+Python libs:
+> 1. requests
+> 2. pandas
+> 3. datetime
+
 업비트에서 제공하는 비공식 API로써 사이트에 Ajax형태인 JSON으로 반환 할때 이용되는 URL을 통해 데이터를 수집합니다.<br>
 [URL]<br>
 https://crix-api-endpoint.upbit.com/v1/crix/candles/minutes/{minutes}?code=CRIX.UPBIT.KRW-{coinName}&count={count}&to={timeseries}.000Z<br>
@@ -18,7 +23,4 @@ Python libs:
 > 2. numby
 > 3. pandas
 > 4. sklearn
-[UpBit Data Crawler]
-> 1. requests
-> 2. pandas
-> 3. datetime
+
